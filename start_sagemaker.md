@@ -78,7 +78,7 @@ SageMakerタイプのリミット値を選択し、利用したいリージョ�
 
 - 利用が終わったらノートブックタブをクローズし、**stopをクリックすることを忘れないように！** *stop*ボタンがクリックされるまで、課金が発生し続ける。
 
-    <img alt="stop" src="{{ site.baseurl }}images/sagemaker/stop_instance.png" class="screenshot">
+    <img alt="stop" src="{{ site.baseurl }}/images/sagemaker/stop_instance.png" class="screenshot">
 
 
 ### 作業の再開
