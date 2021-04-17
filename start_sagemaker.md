@@ -51,7 +51,7 @@ SageMakerタイプのリミット値を選択し、利用したいリージョ�
 
     <img alt="create stack" src="{{ site.baseurl }}/images/sagemaker/create_stack.png" class="screenshot">
 
-1. CloudFormationのページが開く。スタックのステイタスは`CREATE_IN_PROGRESS`となっているはずだ。ステイタスが**CREATE_COMPLETE**になるまで待つ。AWSのWebコンソールの左上隅にあるServicesメニューから"sage"と入力すると、下図のように`Amazon SageMaker`のリンクが出てくる。これをクリックしてSageMakerのWebコンソールを開く。
+1. CloudFormationのページが開く。スタックのステイタスは`CREATE_IN_PROGRESS`となっているはずだ。ステイタスが**CREATE_COMPLETE**になるまで待つ。AWSのWebコンソールの左上隅にあるServicesメニューから"sage"と入力すると、下図のように「Amazon SageMaker」のリンクが出てくる。これをクリックしてSageMakerのWebコンソールを開く。
 
 
    <img alt="sage" src="{{ site.baseurl }}/images/sagemaker/01.png" class="screenshot">
@@ -64,7 +64,7 @@ SageMakerタイプのリミット値を選択し、利用したいリージョ�
       
 ### fastaiコース教材の利用
 
-`Open Jupyter`リンクをクリックすると、fastaiコースのノートブックがすでにインストールされたJupyterノートブックのWebインターフェイスへとリダイレクトされる。
+「Open Jupyter」リンクをクリックすると、fastaiコースのノートブックがすでにインストールされたJupyterノートブックのWebインターフェイスへとリダイレクトされる。
 
 <img alt="coursenotebooks" src="{{ site.baseurl }}/images/sagemaker/course_notebooks.png" class="screenshot">
 
@@ -78,7 +78,7 @@ SageMakerタイプのリミット値を選択し、利用したいリージョ�
 
 - 利用が終わったらノートブックタブをクローズし、**stopをクリックすることを忘れないように！** *stop*ボタンがクリックされるまで、課金が発生し続ける。
 
-    <img alt="stop" src="images/sagemaker/stop_instance.png" class="screenshot">
+    <img alt="stop" src="{{ site.baseurl }}images/sagemaker/stop_instance.png" class="screenshot">
 
 
 ### 作業の再開
