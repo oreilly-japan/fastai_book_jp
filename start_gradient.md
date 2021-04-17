@@ -14,7 +14,7 @@ permalink: /start_gradient/
 
 **Paperspaceは先ごろ[GPUインスタンスとCPUインスタンスの無料ティア](https://docs.paperspace.com/gradient/instances/free-instances)を導入した。** これを使うには、ステップ2.6でノートブックを作成する際に、*Free-GPU*もしくは*Free-P5000* (こちらが推奨)を用いるとよい。 
 
-注意: 課金インスタンスでは、より容量が大きく高性能なGPUを使う事ができる。課金インスタンスは、実行時間(秒単位！)で課金される。単価は[インスタンスタイプ](https://gradient.paperspace.com/instances)に依存する。[Gradientの"preemptible"(割り込まれる可能性がある)インスタンス](https://docs.paperspace.com/gradient/instances/preemptible-instances)を使うと安く済むので、検討してほしい。
+注意: 課金インスタンスでは、より容量が大きく高性能なGPUを使うことができる。課金インスタンスは、実行時間(秒単位！)で課金される。単価は[インスタンスタイプ](https://gradient.paperspace.com/instances)に依存する。[Gradientの"preemptible"(割り込まれる可能性がある)インスタンス](https://docs.paperspace.com/gradient/instances/preemptible-instances)を使うと安く済むので、検討してほしい。
  
 ## ステップ 1: アカウントの作成
 
@@ -38,7 +38,7 @@ permalink: /start_gradient/
 1. Create Notebook をクリックする。
 ![create](images/gradient/create.png)
 
-これでノートブックの状態がPendingからRunningになり、使える状態になるはずだ🌟.
+これでノートブックの状態がPendingからRunningになり、使える状態になるはずだ🌟。
 
 注意: 課金インスタンスの場合、「Create Notebook」をクリックしてノートブックを起動するだけで課金が発生する。課金を停止するためには、ノートブックを停止する必要がある。
 
@@ -88,7 +88,7 @@ Jupyterノートブックから、「fastbook」をクリックすると次の�
 
 ### データの管理
 `/storage`フォルダは、ユーザの[永続ストレージ](https://docs.paperspace.com/gradient/data/storage#persistent-storage)となっている。このフォルダに置かれたファイルはすべてのノートブック、ジョブ、Linux VM(現在のところ無料)からアクセスできる。このレポジトリは、データセットやモデルを置くのに適している。
-注意: Persistent Storageは特定のリージョンに作られる(ノートブックやジョブを生成する際に、ストレージのリージョンを指定する事ができる)。
+注意: Persistent Storageは特定のリージョンに作られる(ノートブックやジョブを生成する際に、ストレージのリージョンを指定することができる)。
 
 
 ### ノートブックの共有
