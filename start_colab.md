@@ -69,7 +69,7 @@ Colabのウェブサイトを呼んでこのシステムの制約をよく理解
 使いたいものを選択すればいい。
 
 注意: 2章の節の一つではVoilaを利用している。Colabでは残念ながらVoilaは動作しない。
-この節に関しては、スキップするか、Gradientなど他のプラットフォームを使って欲しい
+この節に関しては、スキップするか、Gradientなど他のプラットフォームを使ってほしい
 (Colab以外なら動作する)。
 
 
@@ -98,7 +98,7 @@ fastbook.setup_book()
 このセルの左側にある三角形の実行ボタンをクリックしてこのセルを実行しよう。`Ctrl-Enter`でも実行できる。
 
 最初のセルを実行すると、次のように「Warning: This notebook was not authored by Google'」
-という警告ウィンドウがポップアップする事がある。この場合は「'Run Anyway'」を選択すればよい。
+という警告ウィンドウがポップアップすることがある。この場合は「'Run Anyway'」を選択すればよい。
 
 <img src="{{ site.baseurl }}/images/colab/04.png" width="50%">
 
