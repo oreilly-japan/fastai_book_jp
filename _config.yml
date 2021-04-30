@@ -9,7 +9,7 @@ name: PyTorchとfastaiではじめるディープラーニング
 description: "― エンジニアのためのAIアプリケーション開発"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: "{ site.baseurl }}/cover.html"
+avatar: "{{ site.baseurl }}/cover.html"
 
 #
 # Flags below are optional
