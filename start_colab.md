@@ -63,28 +63,31 @@ Colabのウェブサイトを呼んでこのシステムの制約をよく理解
 [chap20]:https://colab.research.google.com/github/fastai/fastbook/blob/master/20_conclusion.ipynb
 
 
-別の方法もある。ColabのWelcomeページに行き、'Github'をクリックする。
-'Enter a GitHub URL or search by organization or user'と聞かれたら、
-'fastai/fastbook'と入力する。すると、このコースのノートブックが列挙されるので、
+別の方法もある。ColabのWelcomeページに行き、[Github]をクリックする。
+「Enter a GitHub URL or search by organization or user」と聞かれたら、
+「fastai/fastbook」と入力する。すると、このコースのノートブックが列挙されるので、
 使いたいものを選択すればいい。
 
-注意: 2章の節の一つではVoilaを利用している。Colabでは残念ながらVoilaは動作しない。
+注意: 2章の節の1つではVoilaを利用している。Colabでは残念ながらVoilaは動作しない。
 この節に関しては、スキップするか、Gradientなど他のプラットフォームを使ってほしい
 (Colab以外なら動作する)。
 
 
 ### GPUの使用
 
-何よりも先に、Colabに対して、GPUを使いたいと伝える必要がある。これには「Runtime」タブをクリックして、
-「Change runtime type」を選択する。
+何よりも先に、Colabに対して、GPUを使いたいと伝える必要がある。これには[Runtime]タブをクリックして、
+[Change runtime type]を選択する。
 するとポップアップウィンドウが開く。その中に次のようなドロップダウンメニューがあるはずだ。
+<!---
+  （★赤池より）図の順番が違うように思いますので、入れ替え
+-->
 
-<img src="{{ site.baseurl }}/images/colab/02.png" width="80%">
+<img src="{{ site.baseurl }}/images/colab/03.png" width="80%">
 
-このメニューからGPUを選択し、'Save'をクリックする。
+このメニューからGPUを選択し、[Save]をクリックする。
 
 
-<img src="{{ site.baseurl }}/images/colab/03.png" width="30%">
+<img src="{{ site.baseurl }}/images/colab/04.png" width="30%">
 
 ### ノートブックの設定
 最初のセルには、fastaiやその他の必要なライブラリをセットアップするためのコードが書かれている。次のようなコードだ。
@@ -95,12 +98,12 @@ import fastbook
 fastbook.setup_book()
 ```
 
-このセルの左側にある三角形の実行ボタンをクリックしてこのセルを実行しよう。`Ctrl-Enter`でも実行できる。
+このセルの左側にある三角形の実行ボタンをクリックしてこのセルを実行しよう。［Ctrl］-［Enter］でも実行できる。
 
-最初のセルを実行すると、次のように「Warning: This notebook was not authored by Google'」
-という警告ウィンドウがポップアップすることがある。この場合は「'Run Anyway'」を選択すればよい。
+最初のセルを実行すると、次のように「Warning: This notebook was not authored by Google」
+という警告ウィンドウがポップアップすることがある。この場合は[Run Anyway]を選択すればよい。
 
-<img src="{{ site.baseurl }}/images/colab/04.png" width="50%">
+<img src="{{ site.baseurl }}/images/colab/02.png" width="50%">
 
 
 ### Google Driveの利用
@@ -117,12 +120,12 @@ Google Driveへのパスは、`gdrive`という変数名で与えられる。こ
 ファイルやモデルをセーブする際には、このパスの下のディレクトリを使う必要がある。
 
 Githubからノートを開いた場合には、Google Driveにセーブする必要がある。
-これには、`'File'`から`'Save'`すればよい。
+これには、[File]から[Save]すればよい。
 次のようなポップアップが表示されるはずだ。
 
 <img src="{{ site.baseurl }}/images/colab/09.png" width="100%">
 
-ここで、`'SAVE A COPY IN DRIVE'`をクリックする。
+ここで、[SAVE A COPY IN DRIVE]をクリックする。
 こうすると別のタブでGoogle Driveに置かれたノートブックが開く。
 セーブしたあとも作業を続けるなら新しいタブで開かれた方を使おう。
 ノートブックはデフォルトでは、Google Driveの`Colab Notebooks`フォルダにセーブされる。
