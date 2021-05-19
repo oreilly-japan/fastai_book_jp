@@ -101,7 +101,7 @@ fastbook.setup_book()
 このセルの左側にある三角形の実行ボタンをクリックしてこのセルを実行しよう。［Ctrl］-［Enter］でも実行できる。
 
 最初のセルを実行すると、次のように「Warning: This notebook was not authored by Google」
-という警告ウィンドウがポップアップすることがある。この場合は[Run Anyway]を選択すればよい。
+という警告ウィンドウがポップアップすることがある。この場合は[RUN ANYWAY]を選択すればよい。
 
 <img src="{{ site.baseurl }}/images/colab/02.png" width="50%">
 
