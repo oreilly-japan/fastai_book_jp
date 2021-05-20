@@ -82,12 +82,12 @@ Colabのウェブサイトを呼んでこのシステムの制約をよく理解
   （★赤池より）図の順番が違うように思いますので、入れ替え
 -->
 
-<img src="{{ site.baseurl }}/images/colab/03.png" width="80%">
+<img src="{{ site.baseurl }}/images/colab/03.png" width="30%">
 
 このメニューからGPUを選択し、[Save]をクリックする。
 
 
-<img src="{{ site.baseurl }}/images/colab/04.png" width="30%">
+<img src="{{ site.baseurl }}/images/colab/04.png" width="80%">
 
 ### ノートブックの設定
 最初のセルには、fastaiやその他の必要なライブラリをセットアップするためのコードが書かれている。次のようなコードだ。
@@ -103,7 +103,7 @@ fastbook.setup_book()
 最初のセルを実行すると、次のように「Warning: This notebook was not authored by Google」
 という警告ウィンドウがポップアップすることがある。この場合は[RUN ANYWAY]を選択すればよい。
 
-<img src="{{ site.baseurl }}/images/colab/02.png" width="50%">
+<img src="{{ site.baseurl }}/images/colab/02.png" width="80%">
 
 
 ### Google Driveの利用
