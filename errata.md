@@ -9,6 +9,10 @@ permalink: /errata/
 
 ## 既知のエラー
 
-- N/A yet
+- p.61 下から9行目
+```ims = results.attrgot('content_url')```
 
+`content_url`は間違いで、ただしくは`contentUrl`です。
+
+@harapx 様からご指摘いただきました。ありがとうございます。
 
