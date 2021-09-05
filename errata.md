@@ -10,9 +10,11 @@ permalink: /errata/
 ## 既知のエラー
 
 - p.61 下から9行目
-```ims = results.attrgot('content_url')```
 
-`content_url`は間違いで、ただしくは`contentUrl`です。
+  ```ims = results.attrgot('content_url')```
 
-@harapx 様からご指摘いただきました。ありがとうございます。
+  `content_url`は間違いで、ただしくは`contentUrl`です。
+
+  @harapx 様からご指摘いただきました。ありがとうございます!
+  (2021/9/6)
 
